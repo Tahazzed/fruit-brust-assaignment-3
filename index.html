@@ -8,11 +8,29 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+
     <!-- font awasome icon -->
     <script src="https://kit.fontawesome.com/b9e078ba9e.js" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- custome styles -->
+
+
+    <style>
+      .fonts{          
+        font-family: 'Lato', sans-serif;
+      }
+    </style>
     
 </head>
-<body class="max-w-screen-xl mx-auto px-8 md:px-7 lg:px-16 py-3 my-5">
+<body class="max-w-screen-xl mx-auto px-8 md:px-7 lg:px-16 py-3 my-5 fonts">
     <header>           
         <nav class="">
           <div class="navbar lg:bg-red-500 lg:rounded-full">            
@@ -423,8 +441,28 @@
     </div>
       </section>
     </main>
-    <footer>
-
+    <footer class="footer footer-center p-10 bg-black text-white flex-wrap mt-9">
+      <div class="flex">
+        <img src="images/logo.png" class="w-10 h-10" alt="">
+        <a class=" normal-case text-2xl lg:text-white font-bold">Fruit burst</a>
+      </div>
+      <div class="grid grid-cols-4 lg:grid-cols-6 gap-4 ">
+        <a class="link link-hover">Home</a> 
+        <a class="link link-hover">About Us</a> 
+        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">All Fruits</a>
+        <a class="link link-hover">Support</a>
+        <a class="link link-hover">My Account</a>
+        
+      </div> 
+      <div>
+        <div class="grid grid-flow-col gap-4">
+          <a href=""><i class="fa-brands fa-twitter text-xl"></i></a>
+          <a href=""><i class="fa-brands fa-facebook text-xl"></i></a>          
+          <a href=""><i class="fa-brands fa-linkedin text-xl"></i></a>
+        </div>
+      </div> 
+      
     </footer>
 </body>
 </html>
